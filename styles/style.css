@@ -1,0 +1,59 @@
+@font-face {
+    font-family: miFuente;
+    src: url("../assets/fonts/Bremlin.otf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 6em;
+    background-color: #CFE8F8;
+}
+.navIndex{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.ulLogo{
+    margin: 0.4vw 0 0 0.4vw;
+}
+.imgLogo {
+    width: 4vw;
+}
+.navMenu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    font-size: 2rem;
+}
+.navMenu{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.nombreFlender {
+    font-family: mifuente;
+}
+
+/*-----------*/
+
+.sectionNombre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nombreFlender{
+    margin: 0.2em 0 0 0;
+    text-align: center;
+    font-size: 5em;
+}
+.somosText{
+    width: 50%;
+    text-align: center;
+
+}
