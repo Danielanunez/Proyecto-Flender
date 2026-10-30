@@ -78,7 +78,7 @@ header{
 /*-----titulo modelos------*/
 .modelosTitulo {
     margin: 15px 0px;
-    font-size: 6vw;
+    font-size: 5vw;
 }
 
 /*------cards---------*/
@@ -86,7 +86,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70vw;
+    width: 80vw;
+    margin: 0px 0px 20px 0px;
 }
 .card {
     background-color: var(--bg-transparent);
@@ -98,4 +99,20 @@ header{
 }
 .card img {
     width: 20vw;
+}
+
+/*-----footer------*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+/*----Redes Sociales-----*/
+.redesSociales {
+    display: flex;
+    width: 50vw;
+}
+.redesSociales img {
+    width: 3rem;
+    margin: 3px;
 }
