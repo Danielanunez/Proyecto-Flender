@@ -15,9 +15,10 @@ header{
     display: flex;
     text-decoration: none;
     list-style: none;
+    
 }
 .ulLogo{
-    margin: 0.4vw 0 0 0.4vw;
+    padding: 0.4vw 0 0 0.4vw;
 }
 .imgLogo {
     width: 4vw;
@@ -25,7 +26,7 @@ header{
 .navMenu a{
     text-decoration: none;
     color: rgb(0, 0, 0);
-    padding: 1rem;
+    padding: 0.5rem;
     font-size: 2rem;
 }
 .navMenu{
@@ -56,4 +57,12 @@ header{
     width: 50%;
     text-align: center;
 
+}
+/*------Bienvenida-------*/
+
+
+/*------cards---------*/
+.cards{
+    display: flex;
+    max-width: 3rem;
 }
