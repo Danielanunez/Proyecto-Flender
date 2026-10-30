@@ -2,14 +2,19 @@
     font-family: miFuente;
     src: url("../assets/fonts/Bremlin.otf");
 }
+:root{
+    --bg-cian: #CFE8F8;
+    --bg-transparent: rgba(47, 54, 42, 0.6); 
+}
 
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 header{
     height: 6em;
-    background-color: #CFE8F8;
+    background-color: var(--bg-cian);
 }
 .navIndex{
     display: flex;
@@ -53,16 +58,44 @@ header{
     text-align: center;
     font-size: 5em;
 }
-.somosText{
-    width: 50%;
-    text-align: center;
-
-}
 /*------Bienvenida-------*/
+.somosFlender {
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+    margin: 20px;
+}
+.bienvenido {
+    font-family: miFuente;
+}
+.somosText{
+    font-size: 1.5rem;
+}
+.imagenBienvenida {
+    width: 25vw;
+}
 
+/*-----titulo modelos------*/
+.modelosTitulo {
+    margin: 15px 0px;
+    font-size: 6vw;
+}
 
 /*------cards---------*/
 .cards{
     display: flex;
-    max-width: 3rem;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+}
+.card {
+    background-color: var(--bg-transparent);
+    width: 50vw;
+    height: 30vw;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.card img {
+    width: 20vw;
 }
