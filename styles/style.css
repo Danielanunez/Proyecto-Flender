@@ -2,62 +2,72 @@
     font-family: miFuente;
     src: url("../assets/fonts/Bremlin.otf");
 }
-:root{
+
+:root {
     --bg-cian: #CFE8F8;
-    --bg-transparent: rgba(47, 54, 42, 0.6); 
+    --bg-transparent: rgba(47, 54, 42, 0.6);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-header{
+
+/*------Header/Navbar------*/
+header {
     height: 6em;
     background-color: var(--bg-cian);
 }
-.navIndex{
+
+.navIndex {
     display: flex;
     text-decoration: none;
     list-style: none;
-    
+
 }
-.ulLogo{
+
+.ulLogo {
     padding: 0.4vw 0 0 0.4vw;
 }
+
 .imgLogo {
     width: 4vw;
 }
-.navMenu a{
+
+.navMenu a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     padding: 0.5rem;
     font-size: 2rem;
 }
-.navMenu{
+
+.navMenu {
     width: 100%;
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: end;
 }
+
 .nombreFlender {
     font-family: mifuente;
 }
 
-/*-----------*/
-
-.sectionNombre{
+/*-----Nombre Flender------*/
+.sectionNombre {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.nombreFlender{
+
+.nombreFlender {
     margin: 0.2em 0 0 0;
     text-align: center;
     font-size: 5em;
 }
+
 /*------Bienvenida-------*/
 .somosFlender {
     display: flex;
@@ -65,12 +75,16 @@ header{
     width: 60vw;
     margin: 20px;
 }
+
 .bienvenido {
     font-family: miFuente;
+    font-size: 3vw;
 }
-.somosText{
+
+.somosText {
     font-size: 1.5rem;
 }
+
 .imagenBienvenida {
     width: 25vw;
 }
@@ -82,13 +96,14 @@ header{
 }
 
 /*------cards---------*/
-.cards{
+.cards {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80vw;
     margin: 0px 0px 20px 0px;
 }
+
 .card {
     background-color: var(--bg-transparent);
     width: 50vw;
@@ -97,6 +112,7 @@ header{
     margin: 15px;
     border-radius: 10px;
 }
+
 .card img {
     width: 20vw;
 }
@@ -105,14 +121,40 @@ header{
 .footer {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    align-items: center;
+    margin: auto;
+    width: 90vw;
 }
+
+.logoFlenderFooter img {
+    width: 4rem;
+}
+
+.githubFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.githubLogo {
+    width: 3rem;
+}
+
 /*----Redes Sociales-----*/
 .redesSociales {
     display: flex;
-    width: 50vw;
+    justify-content: end;
 }
+
 .redesSociales img {
     width: 3rem;
     margin: 3px;
 }
+
+/*----Nosotros-----*/
+
+
+/*-------FAQ--------*/
+
+
+/*-----Contacto-----*/
