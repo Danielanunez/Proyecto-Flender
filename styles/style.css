@@ -3,8 +3,8 @@
 :root {
 
     --bg-cian: #CFE8F8;
-    --bg-transparent: rgba(47, 54, 42, 0.6);
-    --mi-fuente: 'Alegreya';
+    --bg-transparent: rgba(47, 54, 42, 0.3);
+    --mi-fuente: 'Alegreya', sans-serif;
 }
 
 * {
@@ -152,6 +152,9 @@ header {
 }
 
 /*----Nosotros-----*/
+.historia img {
+    height: 100vh;
+}
 .tituloHistoria {
     font-family: var(--mi-fuente);
     text-align: center;
@@ -162,7 +165,37 @@ header {
     margin: auto;
 }
 
-/*-------FAQ--------*/
+.footer{
+    margin-top: 2rem;
+}
 
+/*-------FAQ--------*/
+.fondoPreguntas{
+    width: 100vw;
+}
+.preguntas{
+    width: 60vw;
+    margin: auto;
+    list-style: none;
+}
+.preg{
+    font-family: var(--mi-fuente);
+    font-size: 2rem;
+    margin: 1rem 0 0 0;
+}
 
 /*-----Contacto-----*/
+.formularioContacto{
+    width: 50vw;
+    background-color: var(--bg-transparent);
+    margin: auto;
+}
+.formularioContacto h2{
+    font-size: 2rem;
+    text-align: center;
+} 
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: ;
+}
