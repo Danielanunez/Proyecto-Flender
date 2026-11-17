@@ -20,8 +20,6 @@ header {
 }
 
 .navIndex {
-    display: flex;
-    text-decoration: none;
     list-style: none;
 
 }
@@ -44,9 +42,7 @@ header {
 .navMenu {
     width: 100%;
     list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: end;
+    
 }
 
 .nombreFlender {
@@ -55,10 +51,7 @@ header {
 
 /*-----Nombre Flender------*/
 .sectionNombre {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   
 }
 
 .nombreFlender {
@@ -69,8 +62,7 @@ header {
 
 /*------Bienvenida-------*/
 .somosFlender {
-    display: flex;
-    justify-content: center;
+  
     width: 60vw;
     margin: 20px;
 }
@@ -97,9 +89,7 @@ header {
 
 /*------cards---------*/
 .cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     width: 80vw;
     margin: 0px 0px 20px 0px;
 }
@@ -119,9 +109,7 @@ header {
 
 /*-----footer------*/
 .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   
     margin: auto;
     width: 90vw;
 }
@@ -131,9 +119,7 @@ header {
 }
 
 .githubFooter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    
 }
 
 .githubLogo {
@@ -142,8 +128,7 @@ header {
 
 /*----Redes Sociales-----*/
 .redesSociales {
-    display: flex;
-    justify-content: end;
+    
 }
 
 .redesSociales img {
@@ -195,8 +180,7 @@ header {
     text-align: center;
 } 
 .formulario{
-    display: flex;
-    flex-direction: column;
+  
     padding: 15px;
 }
 .formulario input{
