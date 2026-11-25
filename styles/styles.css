@@ -2,7 +2,7 @@
 
 :root {
 
-    --bg-cian: #CFE8F8;
+    --bg-cian: #2a2a2a;
     --bg-transparent: rgba(47, 54, 42, 0.3);
     --mi-fuente: 'Alegreya', sans-serif;
 }
@@ -18,10 +18,13 @@ header {
     height: 6em;
     background-color: var(--bg-cian);
 }
-
+.inicioTexto{
+    color: #ededed;
+}
 .navIndex {
+    display: flex;
+    text-decoration: none;
     list-style: none;
-
 }
 
 .ulLogo {
@@ -30,28 +33,38 @@ header {
 
 .imgLogo {
     width: 4vw;
+    margin-bottom: 0.5rem;
 }
 
 .navMenu a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
-    padding: 0.5rem;
+    color: #ededed;
     font-size: 2rem;
 }
 
 .navMenu {
     width: 100%;
     list-style: none;
-    
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .nombreFlender {
     font-family: var(--mi-fuente);
 }
-
+body{
+    background-color: #ededed;
+}
 /*-----Nombre Flender------*/
 .sectionNombre {
-   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .nombreFlender {
@@ -62,7 +75,8 @@ header {
 
 /*------Bienvenida-------*/
 .somosFlender {
-  
+    display: flex;
+    justify-content: center;
     width: 60vw;
     margin: 20px;
 }
@@ -89,27 +103,30 @@ header {
 
 /*------cards---------*/
 .cards {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
     width: 80vw;
-    margin: 0px 0px 20px 0px;
 }
 
 .card {
     background-color: var(--bg-transparent);
     width: 50vw;
-    height: 30vw;
+    height: 32vw;
     padding: 15px;
-    margin: 15px;
     border-radius: 10px;
 }
 
 .card img {
-    width: 20vw;
+    width: 25vw;
 }
 
 /*-----footer------*/
 .footer {
-   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: auto;
     width: 90vw;
 }
@@ -119,7 +136,9 @@ header {
 }
 
 .githubFooter {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .githubLogo {
@@ -128,7 +147,8 @@ header {
 
 /*----Redes Sociales-----*/
 .redesSociales {
-    
+    display: flex;
+    justify-content: end;
 }
 
 .redesSociales img {
@@ -137,7 +157,23 @@ header {
 }
 
 /*----Nosotros-----*/
+.historia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.historiaTexto{
+    position: absolute;
+    background-color: rgba(47, 54, 42, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    right: 9rem;
+    color: #ededed;
+    font-size: 1.5rem;
+}
 .historia img {
+    width: 100vw;
     height: 100vh;
 }
 .tituloHistoria {
@@ -155,6 +191,9 @@ header {
 }
 
 /*-------FAQ--------*/
+.imagenPreguntas{
+    position: absolute;
+}
 .fondoPreguntas{
     width: 100vw;
 }
@@ -162,6 +201,7 @@ header {
     width: 60vw;
     margin: auto;
     list-style: none;
+    position: relative;
 }
 .preg{
     font-family: var(--mi-fuente);
@@ -180,7 +220,8 @@ header {
     text-align: center;
 } 
 .formulario{
-  
+    display: flex;
+    flex-direction: column;
     padding: 15px;
 }
 .formulario input{
